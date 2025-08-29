@@ -1,0 +1,10 @@
+C:\Joao\Projetos\Sugira\Sugira.Controllers\bin\Debug\net8.0\Sugira.Controllers.deps.json
+C:\Joao\Projetos\Sugira\Sugira.Controllers\bin\Debug\net8.0\Sugira.Controllers.dll
+C:\Joao\Projetos\Sugira\Sugira.Controllers\bin\Debug\net8.0\Sugira.Controllers.pdb
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\Sugira.Controllers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\Sugira.Controllers.csproj.CoreCompileInputs.cache
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\Sugira.Controllers.sourcelink.json
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\Sugira.Controllers.dll
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\refint\Sugira.Controllers.dll
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\Sugira.Controllers.pdb
+C:\Joao\Projetos\Sugira\Sugira.Controllers\obj\Debug\net8.0\ref\Sugira.Controllers.dll

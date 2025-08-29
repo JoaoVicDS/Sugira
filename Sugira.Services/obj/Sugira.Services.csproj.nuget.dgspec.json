@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.vintasoft.com/private_nuget_feed/b2davQD2OOLW5TVb1OtnX6P2DFfAPJIgxtw+oNC7chZ7gfBFbsFh/bLgd4eHEVR+l0Ckb5yc3mHlj5IFakwEa8N81Zbc+NH2hY6A3ztqPkhxjF3Y+1BmHNZN4/OzdPmP3uwO1YON8D4tGyjqO0fv3t/MVZFmnWAfY5ZYoa7xCRM": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
