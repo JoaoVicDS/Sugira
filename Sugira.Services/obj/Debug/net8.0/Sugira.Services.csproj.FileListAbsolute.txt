@@ -1,0 +1,16 @@
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Services.deps.json
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Services.dll
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Services.pdb
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Data.dll
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Models.dll
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Data.pdb
+C:\Joao\Projetos\Sugira\Sugira.Services\bin\Debug\net8.0\Sugira.Models.pdb
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.csproj.AssemblyReference.cache
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.csproj.CoreCompileInputs.cache
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.sourcelink.json
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.S.991D84D5.Up2Date
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.dll
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\refint\Sugira.Services.dll
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\Sugira.Services.pdb
+C:\Joao\Projetos\Sugira\Sugira.Services\obj\Debug\net8.0\ref\Sugira.Services.dll

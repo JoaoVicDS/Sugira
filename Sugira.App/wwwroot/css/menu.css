@@ -1,0 +1,215 @@
+﻿/* --- Importando a fonte Poppins do Google Fonts para um visual moderno --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* --- VARIÁVEIS DE TEMA para fácil customização --- */
+:root {
+    --primary-color: #1a252f;
+    --secondary-color: #6A737C;
+    --background-color: #f7f9fc;
+    --card-background: #ffffff;
+    --border-color: #e8ecf0;
+    --accent-color: #007bff;
+    --placeholder-bg: #e9edf1;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* --- ESTILOS GERAIS DA PÁGINA --- */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+    .menu-header h1 {
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .menu-header p {
+        font-size: 1.1rem;
+        color: var(--secondary-color);
+        max-width: 600px;
+        margin: 0.5rem auto 0;
+    }
+
+#menu-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.loading-indicator, .error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: var(--secondary-color);
+}
+
+/*******************************************************************/
+/* --- CUSTOMIZAÇÃO DO ACCORDION VIA VARIÁVEIS BOOTSTRAP --- */
+/* Esta é a forma mais limpa e recomendada de alterar o visual do Bootstrap. */
+/*******************************************************************/
+#menu-container .accordion {
+    /* Redefinimos as cores padrão do Bootstrap para o nosso tema */
+    --bs-accordion-bg: var(--background-color);
+    --bs-accordion-border-color: var(--border-color);
+    --bs-accordion-btn-color: var(--primary-color);
+    --bs-accordion-btn-bg: var(--background-color);
+    --bs-accordion-active-color: var(--accent-color);
+    --bs-accordion-active-bg: var(--card-background);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.2);
+    --bs-accordion-border-width: 0;
+}
+
+
+/* --- ESTILIZAÇÃO GERAL DO ACCORDION --- */
+.accordion-item {
+    /* O background agora é controlado pela variável --bs-accordion-bg */
+    border: 1px solid var(--bs-accordion-border-color) !important;
+    border-radius: 12px !important;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+    .accordion-item:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+.accordion-button {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* --- ESTILOS PARA O ACCORDION ANINHADO (CATEGORIAS) --- */
+.accordion-body {
+    padding: 1rem;
+    background-color: var(--bs-accordion-bg);
+}
+
+/* O corpo do accordion interno (o que contém os itens) recebe mais padding */
+.accordion-item .accordion-body .accordion .accordion-body {
+    padding: 1.5rem;
+}
+
+.category-accordion-item {
+    margin: 0.5rem 0;
+    box-shadow: none;
+}
+
+    .category-accordion-item .accordion-button {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+/* --- LAYOUT DO ITEM COM FOTO --- */
+.item-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: var(--bs-accordion-bg); /* Unificado com o fundo do accordion */
+    transition: background-color 0.2s ease;
+}
+
+    .item-card:hover {
+        background-color: var(--card-background); /* Destaque branco ao passar o mouse */
+    }
+
+    .item-card:last-child {
+        margin-bottom: 0;
+    }
+
+.item-photo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item-photo-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--placeholder-bg);
+    border: 1px dashed #c8ced5;
+    border-radius: 8px;
+}
+
+    .item-photo-placeholder span {
+        color: var(--secondary-color);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.characteristics-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.characteristic-item {
+    margin-bottom: 0.25rem;
+}
+
+    .characteristic-item strong {
+        color: #495057;
+    }
+
+
+/* --- ANIMAÇÕES --- */
+.accordion-collapse.collapsing {
+    transition: height 0.35s ease-in-out;
+}
+
+.accordion-body > .accordion > .accordion-item,
+.category-accordion-item .accordion-body .item-card {
+    opacity: 0;
+    transform: translateY(-15px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.accordion-collapse.show .accordion-body > .accordion > .accordion-item,
+.accordion-collapse.show .category-accordion-item .accordion-body .item-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    .accordion-collapse.show .accordion-body > .accordion > .accordion-item:nth-child(2) {
+        transition-delay: 0.05s;
+    }
+
+    .accordion-collapse.show .accordion-body > .accordion > .accordion-item:nth-child(3) {
+        transition-delay: 0.1s;
+    }
+
+    .accordion-collapse.show .category-accordion-item .accordion-body .item-card:nth-child(2) {
+        transition-delay: 0.05s;
+    }
+
+    .accordion-collapse.show .category-accordion-item .accordion-body .item-card:nth-child(3) {
+        transition-delay: 0.1s;
+    }

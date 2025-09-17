@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugira.App", "Sugira.App.csproj", "{272B50C7-BEE5-57F0-AF5E-67AA11742897}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugira.App", "Sugira.App\Sugira.App.csproj", "{272B50C7-BEE5-57F0-AF5E-67AA11742897}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugira.Models", "Sugira.Models\Sugira.Models.csproj", "{33FE1207-CAA1-49EC-89BB-4C178DF71FBA}"
 EndProject
