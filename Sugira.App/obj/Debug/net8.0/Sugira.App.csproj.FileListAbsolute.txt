@@ -123,6 +123,7 @@ C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.GeneratedMSBuildE
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.AssemblyInfoInputs.cache
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.AssemblyInfo.cs
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.csproj.CoreCompileInputs.cache
+C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.MvcApplicationPartsAssemblyInfo.cs
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.MvcApplicationPartsAssemblyInfo.cache
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.RazorAssemblyInfo.cache
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.RazorAssemblyInfo.cs
@@ -137,6 +138,7 @@ C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\staticwebassets.build.json
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\staticwebassets.development.json
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.csproj.Up2Date
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\Sugira.App.dll
 C:\Joao\Projetos\Sugira\Sugira.App\obj\Debug\net8.0\refint\Sugira.App.dll

@@ -7,4 +7,13 @@
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sugira.Data\Sugira.Data.csproj" />
+    <ProjectReference Include="..\Sugira.Models\Sugira.Models.csproj" />
+  </ItemGroup>
+
 </Project>

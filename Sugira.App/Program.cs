@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Sugira.Data;
+using Sugira.Services;
+using Sugira.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ var connectionString = builder.Configuration
 // Add new dbcontext service with connection string
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
+
+builder.Services.AddScoped<IMenuService, MenuService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -35,6 +39,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Menu}/{action=Index}/{id?}");
 
 app.Run();

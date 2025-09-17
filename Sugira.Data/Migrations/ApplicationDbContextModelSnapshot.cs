@@ -48,7 +48,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasIndex("MenuId");
 
-                    b.ToTable("Category");
+                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("Sugira.Models.CharacteristicOptionModel", b =>
@@ -77,7 +77,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasIndex("CharacteristicTypeId");
 
-                    b.ToTable("CharacteristicOption");
+                    b.ToTable("CharacteristicOption", (string)null);
 
                     b.HasData(
                         new
@@ -599,7 +599,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CharacteristicType");
+                    b.ToTable("CharacteristicType", (string)null);
 
                     b.HasData(
                         new
@@ -732,7 +732,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasIndex("CharacteristicTypeId");
 
-                    b.ToTable("ItemCharacteristic");
+                    b.ToTable("ItemCharacteristic", (string)null);
                 });
 
             modelBuilder.Entity("Sugira.Models.ItemModel", b =>
@@ -761,7 +761,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Item");
+                    b.ToTable("Item", (string)null);
                 });
 
             modelBuilder.Entity("Sugira.Models.ItemPhotoModel", b =>
@@ -797,7 +797,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasIndex("ItemId");
 
-                    b.ToTable("ItemPhoto");
+                    b.ToTable("ItemPhoto", (string)null);
                 });
 
             modelBuilder.Entity("Sugira.Models.MenuModel", b =>
@@ -820,7 +820,7 @@ namespace Sugira.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Menu");
+                    b.ToTable("Menu", (string)null);
                 });
 
             modelBuilder.Entity("Sugira.Models.CategoryModel", b =>

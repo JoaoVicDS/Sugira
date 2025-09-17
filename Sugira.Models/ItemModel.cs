@@ -18,6 +18,10 @@ public class ItemModel
     [MaxLength(150)]
     public string Name { get; set; } = null!;
 
+    [Required] 
+    [MaxLength(300)] 
+    public string Description { get; set; } = null!;
+
     public bool IsActive { get; set; } = true;
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

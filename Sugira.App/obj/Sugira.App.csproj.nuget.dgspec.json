@@ -120,7 +120,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Joao\\Projetos\\Sugira\\Sugira.Services\\Sugira.Services.csproj": {
+                "projectPath": "C:\\Joao\\Projetos\\Sugira\\Sugira.Services\\Sugira.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -150,6 +154,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -341,7 +348,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Joao\\Projetos\\Sugira\\Sugira.Data\\Sugira.Data.csproj": {
+                "projectPath": "C:\\Joao\\Projetos\\Sugira\\Sugira.Data\\Sugira.Data.csproj"
+              },
+              "C:\\Joao\\Projetos\\Sugira\\Sugira.Models\\Sugira.Models.csproj": {
+                "projectPath": "C:\\Joao\\Projetos\\Sugira\\Sugira.Models\\Sugira.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

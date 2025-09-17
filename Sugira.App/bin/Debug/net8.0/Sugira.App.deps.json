@@ -651,6 +651,9 @@
       },
       "System.Threading.Channels/7.0.0": {},
       "Sugira.Controllers/1.0.0": {
+        "dependencies": {
+          "Sugira.Services": "1.0.0"
+        },
         "runtime": {
           "Sugira.Controllers.dll": {
             "assemblyVersion": "0.0.0.0",
@@ -680,6 +683,10 @@
         }
       },
       "Sugira.Services/1.0.0": {
+        "dependencies": {
+          "Sugira.Data": "1.0.0",
+          "Sugira.Models": "1.0.0"
+        },
         "runtime": {
           "Sugira.Services.dll": {
             "assemblyVersion": "0.0.0.0",

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Nosso Menu";
+}
+
+<div class="menu-header">
+    <h1>Menus Cadastrados</h1>
+</div>
+
+<div class="text-center mb-4">
+    <button id="startRecommendationBtn" class="btn btn-primary btn-lg">
+        <i class="bi bi-magic me-2"></i> Fazer Recomendação
+    </button>
+</div>
+
+<div id="menu-container">
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/main.js" type="module" defer></script>
+    <script src="~/js/components/recommendation.js" defer></script>
+}

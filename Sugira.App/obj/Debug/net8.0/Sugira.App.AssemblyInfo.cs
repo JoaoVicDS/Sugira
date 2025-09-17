@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sugira.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11770f68a81acb993bcf1e33e12e0929e2e387f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d7d8eca1f3f1fac617f8c3edb025373bfbe93cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sugira.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sugira.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

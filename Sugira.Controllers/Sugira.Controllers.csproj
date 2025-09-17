@@ -7,4 +7,9 @@
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <ItemGroup>
+	  <FrameworkReference Include="Microsoft.AspNetCore.App" />
+	  <ProjectReference Include="..\Sugira.Services\Sugira.Services.csproj" />
+  </ItemGroup>
+
 </Project>
